@@ -4,4 +4,4 @@ COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 COPY src ./src
 RUN ./mvnw install
-CMD ["./mvnw", "spring-boot:run"]
+CMD ["./mvnw", "spring-boot:run"]  
